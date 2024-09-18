@@ -11,7 +11,12 @@
 #include "lab13functs.h"
 
 int main() {
-    
+    int first = 0;
+    int last = 0;
+
+    scanf("%d%d", &first, &last);
+
+    printRange(first, last);
     return 0;
 
 }

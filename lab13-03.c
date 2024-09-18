@@ -11,7 +11,12 @@
 #include "lab13functs.h"
 
 int main() {
-    
+    int first = 0;
+    int sec = 0;
+
+    scanf("%d %d", &first, &sec);
+
+    printf("GCD = %d", findGCD(first, sec));
     return 0;
 
 }

@@ -7,3 +7,6 @@
  *          could be multiple lines
  * =========================================================== */
 
+void printRange(int start, int end);
+int isArmstrong(int numIn);
+int findGCD(int num1, int num2);
